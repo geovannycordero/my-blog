@@ -57,4 +57,6 @@ echo "Executing pre-push hook:"
 $ bundle exec jekyll build
 $ cp -r _site/*
 $ rm -rf docs/docs/
+$ git add .
+$ git commit -m "Add files to GitHub Pages"
 ```
