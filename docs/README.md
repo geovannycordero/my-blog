@@ -44,6 +44,10 @@ Finally, in your project directory, build the site and make it available on a lo
 ```bash
 bundle exec jekyll serve
 ```
-> bundle exec jekyll serve if something 
+> bundle exec jekyll serve if something
 
 After that, your project is running on http://127.0.0.1:4000/
+
+## Git Management
+
+I am using a pre-push hook. 
