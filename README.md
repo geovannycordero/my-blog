@@ -53,10 +53,9 @@ After that, your project is running on http://127.0.0.1:4000/
 I am using a pre-push hook with the next content:
 
 ```bash
-echo "Executing pre-push hook:"
+echo "Starting to execute pre-push hook:"
 $ bundle exec jekyll build
 $ cp -r _site/*
 $ rm -rf docs/docs/
-$ git add .
-$ git commit -m "Add files to GitHub Pages"
+echo "End of execute pre-push hook:"
 ```
