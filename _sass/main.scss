@@ -1,13 +1,23 @@
-.current {
-  color: green;
-}
-a:link {
-  text-decoration: none ;
-}
-
 nav {
+  a {
+    text-decoration: none;
+  }
+
+  a:visited, :active, :hover {
+    color: inherit;
+  }
+  text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: x-large;
   background-color: gray;
+}
+
+.title {
+  margin-top: 4em !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
